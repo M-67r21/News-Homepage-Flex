@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Kumbh+Sans&family=Outfit&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 120px 100px 120px;
+    /* margin-right: 120px;
+    margin-left: 120px; */
+    font-family: 'Inter', sans-serif;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 20vh;
+    align-items: center;
+    gap: 100px;
+    padding-right: 10px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+ul li{
+    display: inline-block;
+    padding-left: 20px;
+    color:   hsl(236, 13%, 42%);
+    gap: 50px;
+    padding-right: 20px;
+   
+    
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.row-one{
+    display: flex;
+    gap: 20px;
+}
+.row1{
+    display: flex;
+    flex-direction: column;
+    /* height: 60vh; */
+    width: 66%;
+}
+.row1 img{
+    width: 100%;
+}
+.row1 > .bright{
+    display: flex;
+    margin-top: 30px;
+}
+
+.bright h2{
+    font-size: 50px;
+    font-weight: bolder;
+    width: 50%;
+    color: hsl(240, 100%, 5%);
+    padding-right: 0px;
+    
+}
+.dive{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 50%;
+}
+.dive > p{
+    color:   hsl(236, 13%, 42%);
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.dive button{
+    background-color: hsl(5, 85%, 63%);
+    width: 150px;
+    height: 40px;
+    border: none;
+    color: hsl(36, 100%, 99%);
+    font-size: 12px;
+    margin-top:35px;
+    
+}
+
+.row2{
+    display: flex;
+    flex-direction: column;
+    /* height: 60vh; */
+    background-color: hsl(240, 100%, 5%);
+    width: 30%;
+}
+.row2 > h4{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 30px;
+    /* padding-bottom: none; */
+    color: hsl(35, 77%, 62%);
+}
+.news{
+    color: hsl(36, 100%, 99%);
+    padding-bottom: 10px;
+    padding: 20px;
+    border-bottom: 1px solid hsl(233, 8%, 79%);
+}
+.news > h5{
+    font-size: 18px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+.news > p{
+    font-size: 15px;
+    color: hsl(233, 8%, 79%);
+}
+
+.row-two{
+    display: flex;
+    margin-top: 60px;
+    gap: 20px;
+}
+.footer{
+    display: flex;
+    width: 33%;
+    /* margin-bottom: 100px; */
+   
+}
+
+.three{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.three h4{
+    color: hsl(233, 8%, 79%);
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    
+}
+.three h3{
+    padding-bottom: 10px;
+   color: hsl(240, 100%, 5%);
+}
+.three p{
+    padding-right: 20px;
+    color:  hsl(236, 13%, 42%);
+    font-size: 14px;
+}
